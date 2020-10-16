@@ -1,0 +1,9 @@
+127.0.0.1 - - [12/Dec/2018:04:06:38 +0530] "GET / HTTP/1.1" 404 951
+172.16.134.51 - - [12/Dec/2018:04:07:34 +0530] "GET /app/webapi/profiles HTTP/1.1" 200 328
+172.16.134.51 - - [12/Dec/2018:04:20:08 +0530] "GET /app/webapi/profiles HTTP/1.1" 200 328
+172.16.134.51 - - [12/Dec/2018:04:20:38 +0530] "GET /app/webapi/profiles HTTP/1.1" 200 328
+172.16.134.51 - - [12/Dec/2018:04:20:40 +0530] "GET /app/webapi/profiles HTTP/1.1" 200 328
+172.16.134.51 - - [12/Dec/2018:04:20:41 +0530] "GET /app/webapi/profiles HTTP/1.1" 200 328
+0:0:0:0:0:0:0:1 - - [12/Dec/2018:04:21:03 +0530] "GET /app/WEB-INF/classes/org/tushar/app/model/Profile.java HTTP/1.1" 404 949
+172.16.134.51 - - [12/Dec/2018:04:21:56 +0530] "GET /app/webapi/profiles HTTP/1.1" 200 328
+172.16.134.51 - - [12/Dec/2018:04:22:40 +0530] "GET /app/webapi/profiles HTTP/1.1" 200 328

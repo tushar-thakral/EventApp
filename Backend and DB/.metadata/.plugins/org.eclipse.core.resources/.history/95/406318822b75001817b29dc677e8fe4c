@@ -1,0 +1,28 @@
+package org.tushar.app.mongo;
+
+import org.bson.Document;
+
+import com.mongodb.MongoClient;
+import com.mongodb.client.MongoDatabase;
+
+public class JavaMongoCRUD {
+	
+	public static void main(String[] args) {
+		
+		MongoClient mongoClient = new MongoClient();
+		
+		MongoDatabase db = mongoClient.getDatabase("CRUD");
+		
+		Document course = new Document();
+		
+		course.append("courseID", "M101P");
+		course.append("title", "MongoDB for Developers");
+		course.append("startDate", "15 Mar 2016 at 17:00 UTC");
+		course.append("endDate", "03 May 2016 at 17:00 UTC");
+		course.append("instructor","Andrew Erlichson");
+		course.append("aboutCourse", "Learn everything you need to know to get started building a MongoDB-based app");
+		db.getCollection("courses").insertOne(course);
+		
+	}
+
+}

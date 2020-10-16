@@ -1,0 +1,13 @@
+127.0.0.1 - - [17/Oct/2018:05:14:44 +0530] "GET / HTTP/1.1" 404 951
+172.16.131.102 - - [17/Oct/2018:05:15:47 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 536
+172.16.131.102 - - [17/Oct/2018:05:23:27 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 536
+172.16.131.102 - - [17/Oct/2018:05:23:35 +0530] "GET /app/webapi/eventsInClub/1 HTTP/1.1" 200 266
+172.16.131.102 - - [17/Oct/2018:05:23:35 +0530] "GET /app/webapi/eventsInClub/1 HTTP/1.1" 200 266
+172.16.134.51 - - [17/Oct/2018:05:58:17 +0530] "POST /app/webapi/events HTTP/1.1" 200 147
+172.16.134.51 - - [17/Oct/2018:05:59:50 +0530] "POST /app/webapi/events HTTP/1.1" 200 148
+172.16.131.102 - - [17/Oct/2018:06:09:23 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 536
+172.16.131.102 - - [17/Oct/2018:06:09:23 +0530] "GET /app/webapi/eventsInClub/0 HTTP/1.1" 200 266
+172.16.131.102 - - [17/Oct/2018:06:18:38 +0530] "GET /app/webapi/eventsInClub/0 HTTP/1.1" 200 266
+172.16.131.102 - - [17/Oct/2018:06:18:38 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 536
+172.16.131.102 - - [17/Oct/2018:06:24:49 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 536
+172.16.131.102 - - [17/Oct/2018:06:24:49 +0530] "GET /app/webapi/eventsInClub/0 HTTP/1.1" 200 266

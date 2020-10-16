@@ -1,0 +1,5 @@
+127.0.0.1 - - [05/Aug/2018:05:24:24 -0700] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:05:24:54 -0700] "GET /app/webapi/profiles HTTP/1.1" 200 294
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:05:24:54 -0700] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:05:26:30 -0700] "GET /app/webapi/startScreenImage HTTP/1.1" 404 967
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:05:27:40 -0700] "GET /app/webapi/start_screen_image HTTP/1.1" 200 533530

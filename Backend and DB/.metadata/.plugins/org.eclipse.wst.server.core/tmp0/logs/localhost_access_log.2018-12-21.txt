@@ -1,0 +1,12 @@
+192.168.43.1 - - [21/Dec/2018:01:03:19 +0530] "GET /app/webapi/clubs HTTP/1.1" 204 -
+192.168.43.1 - - [21/Dec/2018:01:03:21 +0530] "GET /app/webapi/clubs HTTP/1.1" 204 -
+192.168.43.199 - - [21/Dec/2018:01:05:42 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 540
+192.168.43.199 - - [21/Dec/2018:01:06:06 +0530] "GET /app/webapi/profiles/1 HTTP/1.1" 500 4171
+192.168.43.199 - - [21/Dec/2018:01:06:17 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 540
+192.168.43.1 - - [21/Dec/2018:01:06:30 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 540
+192.168.43.1 - - [21/Dec/2018:01:19:10 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 540
+192.168.43.199 - - [21/Dec/2018:02:15:37 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 540
+192.168.43.199 - - [21/Dec/2018:02:15:47 +0530] "GET /app/webapi/events HTTP/1.1" 200 1487
+192.168.43.1 - - [21/Dec/2018:02:19:31 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 540
+192.168.43.1 - - [21/Dec/2018:02:19:31 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 540
+192.168.43.1 - - [21/Dec/2018:02:19:59 +0530] "GET /app/webapi/eventsInClub/3 HTTP/1.1" 200 263

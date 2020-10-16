@@ -1,0 +1,6 @@
+127.0.0.1 - - [18/Dec/2018:01:27:01 +0530] "GET / HTTP/1.1" 404 951
+192.168.43.199 - - [18/Dec/2018:01:27:11 +0530] "GET /app/webapi/club_CAMP_image HTTP/1.1" 200 4594
+192.168.43.1 - - [18/Dec/2018:01:28:05 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 540
+192.168.43.1 - - [18/Dec/2018:01:28:05 +0530] "GET /app/webapi/eventsInClub/0 HTTP/1.1" 200 266
+192.168.43.1 - - [18/Dec/2018:01:32:17 +0530] "GET /app/webapi/eventsInClub/0 HTTP/1.1" 200 266
+192.168.43.1 - - [18/Dec/2018:01:32:17 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 540

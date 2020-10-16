@@ -1,0 +1,7 @@
+172.16.131.102 - - [10/Oct/2018:01:09:08 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 536
+172.16.131.102 - - [10/Oct/2018:01:10:22 +0530] "GET /app/webapi/eventsInClub/1 HTTP/1.1" 200 266
+172.16.131.102 - - [10/Oct/2018:01:11:39 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 536
+172.16.131.102 - - [10/Oct/2018:01:14:57 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 536
+172.16.131.102 - - [10/Oct/2018:01:16:07 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 536
+172.16.131.102 - - [10/Oct/2018:01:20:25 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 536
+0:0:0:0:0:0:0:1 - - [10/Oct/2018:01:21:40 +0530] "GET /app/webapi/profiles HTTP/1.1" 200 326

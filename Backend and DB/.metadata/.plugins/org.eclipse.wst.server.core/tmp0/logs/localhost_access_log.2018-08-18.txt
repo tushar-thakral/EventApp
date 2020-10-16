@@ -1,0 +1,11 @@
+127.0.0.1 - - [18/Aug/2018:09:22:34 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [18/Aug/2018:09:23:57 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 536
+172.16.131.102 - - [18/Aug/2018:09:24:15 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 536
+172.16.131.102 - - [18/Aug/2018:09:24:19 +0530] "GET /app/webapi/eventsInClub/1 HTTP/1.1" 200 266
+172.16.131.102 - - [18/Aug/2018:10:20:14 +0530] "GET /app/webapi/clubs HTTP/1.1" 200 536
+172.16.131.102 - - [18/Aug/2018:10:21:01 +0530] "GET /app/webapi/eventsInClub/3 HTTP/1.1" 200 263
+172.16.131.102 - - [18/Aug/2018:10:21:05 +0530] "GET /app/webapi/eventsInClub/4 HTTP/1.1" 200 263
+0:0:0:0:0:0:0:1 - - [18/Aug/2018:10:37:09 +0530] "GET /app/webapi/club_comic_club_image HTTP/1.1" 200 12272
+0:0:0:0:0:0:0:1 - - [18/Aug/2018:10:37:24 +0530] "GET /app/webapi/club_enigma_image HTTP/1.1" 200 50594
+0:0:0:0:0:0:0:1 - - [18/Aug/2018:10:37:35 +0530] "GET /app/webapi/club_TAC_image HTTP/1.1" 200 77958
+0:0:0:0:0:0:0:1 - - [18/Aug/2018:10:37:47 +0530] "GET /app/webapi/club_CAMP_image HTTP/1.1" 200 4594

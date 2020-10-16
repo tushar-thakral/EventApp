@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [20/Jun/2018:00:55:01 -0700] "GET /app/webapi/profiles HTTP/1.1" 200 317
+192.168.42.129 - - [20/Jun/2018:00:57:33 -0700] "GET /app/webapi/profiles HTTP/1.1" 200 317
+192.168.42.129 - - [20/Jun/2018:00:57:33 -0700] "GET /favicon.ico HTTP/1.1" 404 973
+192.168.42.129 - - [20/Jun/2018:00:58:16 -0700] "GET /app/webapi/clubs HTTP/1.1" 200 64
+192.168.42.129 - - [20/Jun/2018:00:58:49 -0700] "GET /app/webapi/events HTTP/1.1" 200 96
+127.0.0.1 - - [20/Jun/2018:17:06:53 -0700] "GET / HTTP/1.1" 404 -
+192.168.42.129 - - [20/Jun/2018:17:07:16 -0700] "GET /app/webapi/profiles HTTP/1.1" 404 -
+192.168.42.129 - - [20/Jun/2018:17:07:19 -0700] "GET /app/webapi/profiles HTTP/1.1" 404 -
+192.168.42.129 - - [20/Jun/2018:17:07:29 -0700] "GET /app/webapi/profiles HTTP/1.1" 404 -
+0:0:0:0:0:0:0:1 - - [20/Jun/2018:17:07:44 -0700] "GET /app/webapi/profiles HTTP/1.1" 404 -
+0:0:0:0:0:0:0:1 - - [20/Jun/2018:17:10:50 -0700] "GET /app/webapi/events HTTP/1.1" 404 -
+0:0:0:0:0:0:0:1 - - [20/Jun/2018:17:11:05 -0700] "GET /app/webapi/profiles HTTP/1.1" 404 -
+127.0.0.1 - - [20/Jun/2018:17:17:25 -0700] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [20/Jun/2018:17:17:38 -0700] "GET /app/webapi/profiles HTTP/1.1" 200 317
+0:0:0:0:0:0:0:1 - - [20/Jun/2018:17:17:57 -0700] "GET /app/webapi/events HTTP/1.1" 200 96
