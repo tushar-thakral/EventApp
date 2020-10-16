@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.hp.appname.ChooseCollegeActivity"
+    tools:showIn="@layout/app_bar_choose_college">
+
+    <SearchView
+        android:id="@+id/searchView2"
+        android:layout_width="294dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="101dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="16dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="172dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="281dp"
+        android:layout_marginEnd="82dp"
+        android:onClick="MyCollegeButton"
+        android:text="My College"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView2" />
+
+    <!--<Button
+        android:id="@+id/button7"
+        android:layout_width="170dp"
+        android:layout_height="73dp"
+        android:text="Clgs Nearby"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="287dp" />
+        -->
+
+</android.support.constraint.ConstraintLayout>

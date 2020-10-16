@@ -1,0 +1,236 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="http://192.168.42.124:8082/app/webapi/image"
+        android:alpha="0.8"/>
+-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--<TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="33dp"
+            android:text="App Name"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="31dp"
+            android:layout_gravity="center"
+            android:text="@string/signUp"
+            android:textSize="29sp" />
+-->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout1"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:theme="@style/TextLabel1" >
+
+            <EditText
+                android:id="@+id/input_clubId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Club ID"
+                android:fontFamily="@font/average_sans"
+                android:inputType="numberDecimal" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout2"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:theme="@style/TextLabel1" >
+
+            <EditText
+                android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:fontFamily="@font/average_sans"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!--<android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout3"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:theme="@style/TextLabel1" >
+
+            <EditText
+                android:id="@+id/input_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:fontFamily="@font/average_sans"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>-->
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout4"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="14dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:theme="@style/TextLabel1" >
+
+            <EditText
+                android:id="@+id/input_organizer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Organizer"
+                android:fontFamily="@font/average_sans"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout5"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="17dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:theme="@style/TextLabel1" >
+
+            <EditText
+                android:id="@+id/input_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date"
+                android:fontFamily="@font/average_sans"
+                android:inputType="date" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout6"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="17dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:theme="@style/TextLabel1" >
+
+            <EditText
+                android:id="@+id/input_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Time"
+                android:fontFamily="@font/average_sans"
+                android:inputType="time" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout7"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="17dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:theme="@style/TextLabel1" >
+
+            <EditText
+                android:id="@+id/input_venue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Venue"
+                android:fontFamily="@font/average_sans"
+                android:inputType="textPostalAddress" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout8"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="17dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:theme="@style/TextLabel1" >
+
+            <EditText
+                android:id="@+id/input_event_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Event Info"
+                android:fontFamily="@font/average_sans"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout9"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="17dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:theme="@style/TextLabel1" >
+
+            <EditText
+                android:id="@+id/input_image_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Image URL"
+                android:fontFamily="@font/average_sans"
+                android:inputType="textUri" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="102dp"
+            android:layout_height="42dp"
+            android:background="@drawable/button_bg_rounded_corners2"
+            android:fontFamily="@font/average_sans"
+            android:onClick="addEventButton"
+            android:layout_gravity="center"
+            android:text="Add Event"
+            android:textAllCaps="false"
+            android:textColor="@color/anotherBlue3"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</ScrollView>

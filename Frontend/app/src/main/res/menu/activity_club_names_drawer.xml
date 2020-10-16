@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--<group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_search"
+            android:title="Search"
+            android:icon="@drawable/ic_icons8_search"/>
+    </group>-->
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_college"
+            android:title="Events In My College"
+            android:icon="@drawable/ic_university"/>
+    </group>
+
+    <group android:id="@+id/grp3" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_nearby_colleges"
+            android:title="Events Nearby"
+            android:icon="@drawable/ic_map"/>
+    </group>
+
+    <group android:id="@+id/grp6" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add_event"
+            android:title="Add Event"
+            android:icon="@drawable/ic_icons8_calendar"/>
+    </group>
+
+    <group android:id="@+id/grp4" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_man_user"/>
+    </group>
+
+    <group android:id="@+id/grp5" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sign_out"
+            android:title="Sign Out"
+            android:icon="@drawable/ic_sign_out"/>
+    </group>
+
+</menu>

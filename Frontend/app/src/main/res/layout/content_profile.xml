@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- Scrollable Item below header and above footer -->
+    <ScrollView
+        android:id="@+id/scrollableContents"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/footer" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/image_view_mobile_picture"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/ic_menu_gallery"
+                />
+
+            <TextView
+                android:id="@+id/edit_text_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" First Name :  Tushar"
+                android:textSize="20sp"
+                android:textColor="#212F3C"
+                android:layout_marginTop="16dp"
+                android:layout_centerHorizontal="true"
+                />
+            <TextView
+                android:id="@+id/edit_text_company_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Last Name :  Thakral"
+                android:textSize="20sp"
+                android:textColor="#212F3C"
+                android:layout_marginTop="16dp"
+                android:layout_centerHorizontal="true"
+                />
+            <TextView
+                android:id="@+id/edit_text_operating_system"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" College Name :  IIIT-B"
+                android:textSize="20sp"
+                android:textColor="#212F3C"
+                android:layout_marginTop="16dp"
+                android:layout_centerHorizontal="true"
+                />
+            <TextView
+                android:id="@+id/edit_text_processor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Contact Number :  94664"
+                android:textSize="20sp"
+                android:textColor="#212F3C"
+                android:layout_marginTop="16dp"
+                android:layout_centerHorizontal="true"
+                />
+            <TextView
+                android:id="@+id/edit_text_ram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Email  :  tushar.thakral@gmail.com"
+                android:textSize="20sp"
+                android:textColor="#212F3C"
+                android:layout_marginTop="16dp"
+                android:layout_centerHorizontal="true"
+                />
+
+            <!--<TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="Following : "
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragmentContainer3"
+                android:paddingBottom="50dp" />
+-->
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

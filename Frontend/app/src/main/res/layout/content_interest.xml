@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="Tell Us Your Interests!"
+        android:textSize="22sp"
+        android:fontFamily="@font/average_sans"
+        android:textColor="#455A64" />
+
+    <View style="@style/Divider"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relLayout1"
+        android:orientation="vertical"
+        android:layout_weight="0.6">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:layout_below="@+id/textView12"/>
+
+    </LinearLayout>
+
+    <View style="@style/Divider"/>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="138dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/relLayout1"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:onClick="ContinueButton"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:fontFamily="@font/average_sans"
+        android:textColor="#FBFCFC" />
+
+</LinearLayout>
